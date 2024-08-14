@@ -1,0 +1,327 @@
+
+        .side-img-5d1461da330ec {
+            max-width: 505px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 20px;
+        }
+
+        .decor-square-5d14abdd557ac {
+            top: -60px;
+            right: -90px
+        }
+
+        .decor-square-5d14acb1d5239 {
+            right: -25px;
+            bottom: 60px
+        }
+
+        .portfolio-5d149dd8a3203 .nav-buttons-type2 .next.go svg {
+            transition: all 5000ms ease-in-out
+        }
+    
+        body {
+            font-family: proxima-nova;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading body {
+            opacity: 0;
+        }
+
+        .ie.wf-loading body {
+            visibility: hidden;
+        }
+
+        h1,
+        .h1 {
+            font-family: proxima-nova;
+            font-style: normal;
+            font-size: 60px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h1,
+        .wf-loading .h1 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h1,
+        .ie.wf-loading .h1 {
+            visibility: hidden;
+        }
+
+        h2,
+        .h2 {
+            font-family: proxima-nova;
+            font-style: normal;
+            font-size: 48px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h2,
+        .wf-loading .h2 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h2,
+        .ie.wf-loading .h2 {
+            visibility: hidden;
+        }
+
+        h3,
+        .h3 {
+            font-family: proxima-nova;
+            font-style: normal;
+            font-size: 36px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h3,
+        .wf-loading .h3 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h3,
+        .ie.wf-loading .h3 {
+            visibility: hidden;
+        }
+
+        h4,
+        .h4 {
+            font-family: proxima-nova;
+            font-style: normal;
+            font-size: 30px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h4,
+        .wf-loading .h4 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h4,
+        .ie.wf-loading .h4 {
+            visibility: hidden;
+        }
+
+        h5,
+        .h5 {
+            font-family: proxima-nova;
+            font-style: normal;
+            font-size: 24px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h5,
+        .wf-loading .h5 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h5,
+        .ie.wf-loading .h5 {
+            visibility: hidden;
+        }
+
+        h6,
+        .h6 {
+            font-family: proxima-nova;
+            font-style: normal;
+            font-size: 18px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h6,
+        .wf-loading .h6 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h6,
+        .ie.wf-loading .h6 {
+            visibility: hidden;
+        }
+
+
+
+
+        .buttonCV {
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            text-transform: uppercase;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .buttonCV::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background: rgba(255, 255, 255, 0.15);
+            transform: translate(-50%, -50%) rotate(45deg);
+            transition: width 0.5s ease, height 0.5s ease;
+            z-index: 0;
+        }
+
+        .buttonCV:hover::before {
+            width: 0%;
+            height: 0%;
+        }
+
+        .buttonCV:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .buttonCV:active {
+            transform: scale(0.95);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .buttonCV span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .contact-form-container {
+            background-color: #f4f4f4;
+            /* Light background for the form */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form-container .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form-container .content {
+            text-align: center;
+        }
+
+        .contact-form-container h5.h {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .contact-form-container .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .contact-form-container .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact-form-container .form-group input,
+        .contact-form-container .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .contact-form-container .form-group textarea {
+            resize: vertical;
+        }
+
+        .contact-form-container .submit-button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            position: relative;
+            overflow: hidden;
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .contact-form-container .submit-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: translate(-50%, -50%) rotate(45deg);
+            transition: width 0.5s ease, height 0.5s ease;
+            z-index: 0;
+        }
+
+        .contact-form-container .submit-button:hover::before {
+            width: 0%;
+            height: 0%;
+        }
+
+        .contact-form-container .submit-button:hover {
+            background-color: #555;
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-form-container .submit-button:active {
+            transform: scale(0.95);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-form-container .submit-button span {
+            position: relative;
+            z-index: 1;
+        }
+
+
+        */
+    
+    
+        .wpb_animate_when_almost_visible {
+            opacity: 1;
+        }
+    
